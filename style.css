@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+    
+}
+body {
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+ 
+}
+
+.grid-item {
+  border: 2px solid;
+}
+
+.item-1 {
+  grid-column: 1 / 7;
+  grid-row: 1 / 6;
+  width: 256px;
+  height: 415px;
+  background-color: #F9EEE2;
+}
+
+.item-2 {
+  grid-column: 1 / 4;
+  grid-row: 6 / 13;
+  height: 434px;
+  width: 256px;
+  background-color: #FFCC6A;
+}
+
+.item-3 {
+  grid-column: 4 /10;
+  grid-row: 1 / 5;
+  width: 744px;
+  height: 324px;
+  background-color: #7551DC;
+}
+
+.item-4 {
+  grid-column: 10 / 13;
+  grid-row: 1 / 9;
+  background-color: #DBD1FC;
+}
+
+.item-5 {
+  grid-column: 4 / 7;
+  grid-row: 5 / 9;
+  width: 256px;
+  height: 247px;
+}
+
+.item-6 {
+  grid-column: 7 / 10;
+  grid-row: 5 / 9;
+  background-color: #FFCC6A;
+  width: 256px;
+  height: 247px;
+}
+
+.item-7 {
+  grid-column: 4 / 7;
+  grid-row: 9 / 13;
+}
+
+.item-8 {
+  grid-column: 7 / 13;
+  grid-row: 9 / 13;
+  background-color: #7551DC;
+}
